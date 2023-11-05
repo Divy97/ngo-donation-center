@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: sans-serif;
   background: #1a2c79;
 }
 .container {
@@ -107,8 +107,12 @@ ul.task-items li.item .task .name {
   background: #eee;
   margin-left: 20px;
   width: 180px;
-  height: 25px;
+  height: 30px;
   border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
 }
 ul.task-items li.item .status {
   display: flex;
@@ -117,6 +121,10 @@ ul.task-items li.item .status {
   color: #2e7d32;
   width: 145px;
   margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
 }
 ul.task-items li.item .status .icon {
   background: #2e7d32;
@@ -124,7 +132,13 @@ ul.task-items li.item .status .icon {
   width: 14px;
   height: 14px;
   border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
 }
+
 ul.task-items li.item .status .icon.risk {
   background: red;
 }
@@ -159,8 +173,12 @@ ul.task-items li.item .dates .bar,
 ul.task-items li.item .priority .bar {
   background: #eee;
   width: 100px;
-  height: 25px;
+  height: 30px;
   border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
 }
 ul.task-items li.item .priority {
   width: 144.5px;

@@ -15,7 +15,7 @@ const Home = () => {
                   cursor: "pointer",
                 }}
               >
-                Hope Heaven
+                Hope Haven
               </span>
             </div>
 
@@ -36,6 +36,7 @@ const Home = () => {
             <li>
               <a>ABOUT</a>
             </li>
+
             <span>
               <i class="far fa-moon white night"></i>
             </span>
@@ -51,10 +52,10 @@ const Home = () => {
               We connect your kindness to those who need it most
             </h4>
             <div class="two-button">
-              <Link to="/donor">
+              <Link to="/donorSignUp">
                 <button class="w-btn btn">SENDING HAPPINESS</button>
               </Link>
-              <Link to="/ngo">
+              <Link to="/ngoSignUp">
                 <button class="t-btn btn">RECEIVING HOPE</button>
               </Link>
             </div>
